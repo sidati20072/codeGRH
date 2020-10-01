@@ -22,14 +22,6 @@ public class Prets implements Serializable {
     private double valeur_totale;
     private double retenu_mensuel;
     private Date date_affectatin;
-
     @ManyToOne
     private Employe employe;
-
-
-
-
-
-
-
 }
